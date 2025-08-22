@@ -1,0 +1,37 @@
+# CODEOWNERS file for reporting-controller-49
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-test @Armor-test/squad-qa @Armor-test/team-logging
+
+# Directory ownership
+/examples/ @Armor-test/squad-qa @Armor-test/dept-api
+/middleware/ @Armor-test/squad-apps @Armor-test/dept-api @Armor-test/team-governance
+/lib/ @Armor-test/team-reporting @Armor-test/squad-database @Armor-test/grp-storage
+/scripts/ @Armor-test/team-governance @Armor-test/team-logging @Armor-test/team-notifications
+/security/ @Armor-test/squad-apps @Armor-test/team-frontend
+/auth/ @Armor-test/dept-automation @Armor-test/squad-search @Armor-test/squad-ml
+/models/ @Armor-test/squad-research @Armor-test/grp-ui @Armor-test/squad-ux
+/controllers/ @Armor-test/team-security @Armor-test/unit-cloud @Armor-test/dept-test
+/components/ @Armor-test/unit-devops @Armor-test/squad-cloud
+/ui/ @Armor-test/grp-storage @Armor-test/squad-apps @Armor-test/squad-search
+/services/ @Armor-test/team-reporting @Armor-test/squad-search
+/build/ @Armor-test/team-security @Armor-test/squad-ml @Armor-test/team-core
+
+# File type ownership
+*.toml @Armor-test/squad-apps @Armor-test/dept-data @Armor-test/unit-test
+*.c @Armor-test/squad-payments @Armor-test/squad-mobile @Armor-test/grp-reporting
+*.gradle @Armor-test/dept-test @Armor-test/team-security @Armor-test/dept-ui
+*.cpp @Armor-test/team-core @Armor-test/squad-ux @Armor-test/team-governance
+*.swift @Armor-test/team-notifications @Armor-test/dept-identity @Armor-test/team-security
+*.proto @Armor-test/team-governance @Armor-test/squad-payments
+*.h @Armor-test/squad-ml @Armor-test/dept-reporting
+*.xml @Armor-test/squad-cache @Armor-test/squad-product
+*.scss @Armor-test/dept-test @Armor-test/unit-cloud
+*.ts @Armor-test/dept-identity @Armor-test/squad-mobile @Armor-test/unit-cloud
+*.php @Armor-test/grp-reporting @Armor-test/dept-reliability
+*.tf @Armor-test/unit-governance @Armor-test/squad-frontend
+
+# Security and special files
+/src/**/security/ @Armor-test/security @Armor-test/compliance
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
